@@ -238,7 +238,7 @@ nav { display: none; }
 
 .my-interests {
     background-color: var(--clr-dark); 
-    background-image: url(img/coffeebackgroundimage.jpeg);
+    background-image: url(https://ibrahimnabid.github.io/img/coffeebackgroundimage.jpeg);
     background-size: cover;
     /* background-blend-mode: multiply; */
     color: var(--clr-light);
