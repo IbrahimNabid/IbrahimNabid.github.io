@@ -327,7 +327,7 @@ nav { display: none; }
 
 .projects {
     background-color: var(--clr-dark);
-    background-image: url(img/projectsbackground.jpeg);
+    background-image: url(https://ibrahimnabid.github.io/img/projectsbackground.jpeg);
     background-size: cover;
     color: var(--clr-light);
     text-align: center;    
