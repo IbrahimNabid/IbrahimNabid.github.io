@@ -237,7 +237,7 @@ nav { display: none; }
 /*  My interests section  */
 
 .my-interests {
-    background-color: var(--clr-dark);
+    /* background-color: var(--clr-dark); */
     background-image: url(img/coffeebackgroundimage.jpeg);
     background-size: cover;
     /* background-blend-mode: multiply; */
