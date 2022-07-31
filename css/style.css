@@ -93,12 +93,12 @@ header {
   }
   
   .topnav a:hover {
-    background-color: #ddd;
+    background-color: #04aa9f;
     color: black;
   }
   
   .topnav a.active {
-    background-color: #04AA6D;
+    background-color: #0422aa;
     color: white;
   }
   
@@ -237,8 +237,8 @@ nav { display: none; }
 /*  My interests section  */
 
 .my-interests {
-    background-color: var(--clr-dark);
-    background-image: url(img/coffeebackgroundimage.jpeg);
+    background-color: var(--clr-dark); 
+    background-image: url(https://ibrahimnabid.github.io/img/coffeebackgroundimage.jpeg);
     background-size: cover;
     /* background-blend-mode: multiply; */
     color: var(--clr-light);
@@ -327,7 +327,7 @@ nav { display: none; }
 
 .projects {
     background-color: var(--clr-dark);
-    background-image: url(img/projectsbackground.jpeg);
+    background-image: url(https://ibrahimnabid.github.io/img/projectsbackground.jpeg);
     background-size: cover;
     color: var(--clr-light);
     text-align: center;    
@@ -422,6 +422,7 @@ input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
+    border-radius: 12px;
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
@@ -429,6 +430,7 @@ input[type=text], select, textarea {
   
   input[type=submit] {
     background-color: #04AA6D;
+    border-radius: 8px;
     color: white;
     padding: 12px 20px;
     border: none;
