@@ -71,6 +71,10 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 1em;
+    position: sticky;
+    top:0;
+    background-color: white;
+    z-index: 9;
 }
 
 .logo {
@@ -327,7 +331,7 @@ nav { display: none; }
 
 .projects {
     background-color: var(--clr-dark);
-    background-image: url(https://ibrahimnabid.github.io/img/projectsbackground.jpeg);
+    background-image: url(https://ibrahimnabid.github.io/img/projectsbackground.jpeg); 
     background-size: cover;
     color: var(--clr-light);
     text-align: center;    
@@ -439,6 +443,7 @@ input[type=text], select, textarea {
   
   input[type=submit]:hover {
     background-color: #45a049;
+    transform: scale(1.1);
   }
   
   /* Style the container/contact section */
