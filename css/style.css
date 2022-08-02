@@ -36,7 +36,7 @@
 /* General styles */
 
 body {
-    background-image: linear-gradient(white, turquoise);
+    background-image: linear-gradient(white, turquoise, skyblue);
     /* background: var(--clr-light); */
     color: var(--clr-dark);
     margin: 0;
